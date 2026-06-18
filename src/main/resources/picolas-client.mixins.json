@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.picolas.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "WorldRendererMixin",
+    "ClientPlayerEntityMixin",
+    "MouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
